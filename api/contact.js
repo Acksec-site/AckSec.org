@@ -30,7 +30,7 @@ export default async function handler(req) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'AckSec Contact Form <onboarding@resend.dev>',
+        from: 'AckSec Contact Form <contact@acksec.org>',
         to: ['info@acksec.org'],
         subject: `New Contact: ${name}`,
         html: `
