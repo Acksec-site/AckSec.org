@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // ============================================
 // SUBTLE GRID BACKGROUND
@@ -1002,6 +1003,7 @@ export default function App() {
       <Nav activeSection={activeSection} setActiveSection={setActiveSection} />
       <main className="relative z-10">{renderSection()}</main>
       <Footer setActiveSection={setActiveSection} />
+      <Analytics />
       
       <style>{`
         @keyframes drift-1 { 0%, 100% { transform: translate(0, 0); } 25% { transform: translate(50px, 30px); } 50% { transform: translate(-30px, 60px); } 75% { transform: translate(-60px, 20px); } }
