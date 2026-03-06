@@ -428,7 +428,7 @@ const Pricing = ({ setActiveSection, setSelectedPlan }) => {
         'Core vulnerability assessment',
         'Standard and publicly known payloads only',
         'Exploitation testing without post-exploitation',
-        'Basic report with findings',
+        'Basic report',
         'Email support'
       ],
     },
@@ -442,7 +442,7 @@ const Pricing = ({ setActiveSection, setSelectedPlan }) => {
         'Thorough vulnerability assessment',
         'Standard custom payloads with your approval',
         'Post-exploitation available upon request',
-        'Detailed report with severity ratings',
+        'Detailed report',
         'Email support'
       ],
     },
@@ -454,9 +454,9 @@ const Pricing = ({ setActiveSection, setSelectedPlan }) => {
       features: [
         '10+ hours of testing',
         'In-depth vulnerability assessment',
-        'Advanced custom payload development',
+        'Advanced custom payloads with your approval',
         'Post-exploitation available upon request',
-        'Comprehensive technical report',
+        'Comprehensive report',
         'Email support'
       ],
     },
@@ -599,11 +599,11 @@ const Team = () => {
             <span className="text-emerald-500">{'>'}</span> About AckSec
           </h3>
           <p className="text-gray-500 leading-relaxed mb-4">
-            AckSec (Acknowledged Security) was founded by two students from Canton Zürich with a simple mission: make professional penetration testing accessible to small businesses and startups.
+            AckSec was founded by two students from Canton Zürich with a simple mission: make professional penetration testing accessible to small businesses and startups.
           </p>
           <div className="flex items-center gap-3 pt-4 border-t border-emerald-500/20">
             <span className="text-lg">CH</span>
-            <span className="text-gray-400">Based in Switzerland — known for precision, privacy, and security.</span>
+            <span className="text-gray-400">Based in Switzerland.</span>
           </div>
         </div>
       </div>
@@ -834,7 +834,7 @@ const Privacy = ({ setActiveSection }) => {
           
           <div>
             <h2 className="text-xl text-white mb-4 font-mono">1. Introduction</h2>
-            <p>AckSec ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website and services.</p>
+            <p>AckSec is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website and services.</p>
           </div>
           
           <div>
